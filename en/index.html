@@ -1,30 +1,37 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>TIGER - International Trade Co Ltd</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <div id="canvas-container"></div>
 
     <nav class="navbar">
         <div class="brand">TIGER</div>
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">首页</a></li>
-            <li><a href="products.html">产品中心</a></li>
-            <li><a href="solutions.html">解决方案</a></li>
-            <li><a href="news.html">最新动态</a></li>
-            <li><a href="about.html">关于我们</a></li>
-            <li><a href="contact.html">联系我们</a></li>
-        </ul>
+        <div style="display:flex;align-items:center;">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="../index.html">中文</a>
+                <a href="index.html" class="active">EN</a>
+                <a href="../ko/index.html">한국어</a>
+            </div>
+        </div>
     </nav>
 
     <div class="hero">
         <h1>TIGER</h1>
         <div class="sub-en">International Trade Co Ltd</div>
-        <div class="sub-cn">泰伊戈尔国际贸易有限公司</div>
+        <div class="sub-cn">Global Supply Chain · Tech Driven</div>
     </div>
 
     <script type="importmap">
@@ -35,6 +42,6 @@
             }
         }
     </script>
-    <script type="module" src="assets/js/bg.js"></script>
+    <script type="module" src="../assets/js/bg.js"></script>
 </body>
 </html>

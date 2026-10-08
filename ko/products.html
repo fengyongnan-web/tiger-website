@@ -1,57 +1,64 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>产品中心 - TIGER</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>제품 센터 - TIGER</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <div id="canvas-container"></div>
 
     <nav class="navbar">
         <div class="brand">TIGER</div>
-        <ul class="nav-links">
-            <li><a href="index.html">首页</a></li>
-            <li><a href="products.html" class="active">产品中心</a></li>
-            <li><a href="solutions.html">解决方案</a></li>
-            <li><a href="news.html">最新动态</a></li>
-            <li><a href="about.html">关于我们</a></li>
-            <li><a href="contact.html">联系我们</a></li>
-        </ul>
+        <div style="display:flex;align-items:center;">
+            <ul class="nav-links">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="products.html" class="active">제품 센터</a></li>
+                <li><a href="solutions.html">솔루션</a></li>
+                <li><a href="news.html">최신 뉴스</a></li>
+                <li><a href="about.html">회사 소개</a></li>
+                <li><a href="contact.html">문의하기</a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="../products.html">中文</a>
+                <a href="../en/products.html">EN</a>
+                <a href="products.html" class="active">한국어</a>
+            </div>
+        </div>
     </nav>
 
     <div class="page-content">
-        <h2 class="section-title">产品中心</h2>
+        <h2 class="section-title">제품 센터</h2>
         <div class="card-grid">
             <div class="card">
-                <h3>电子元器件</h3>
-                <p>各类被动元件、半导体、连接器等电子元器件的全球采购与供应，支持多品牌、多规格选型。</p>
+                <h3>전자 부품</h3>
+                <p>수동 소자, 반도체, 커넥터 등 전자 부품의 글로벌 조달 및 공급. 다양한 브랜드와 규격 선택 지원.</p>
             </div>
             <div class="card">
-                <h3>工业设备</h3>
-                <p>自动化设备、机械配件、工控产品的进出口贸易，提供选型建议与售后支持。</p>
+                <h3>산업 장비</h3>
+                <p>자동화 장비, 기계 부품, 산업 제어 제품의 수출입 무역. 선정 자문 및 애프터 서비스 제공.</p>
             </div>
             <div class="card">
-                <h3>消费电子</h3>
-                <p>智能穿戴、音频设备、手机配件等消费类电子产品的供应链整合与出口服务。</p>
+                <h3>소비자 가전</h3>
+                <p>스마트 웨어러블, 오디오 기기, 모바일 액세서리 등 소비자 가전의 공급망 통합 및 수출 서비스.</p>
             </div>
             <div class="card">
-                <h3>原材料</h3>
-                <p>金属材料、塑胶原料、化工辅料等工业原材料的跨境采购与物流配送。</p>
+                <h3>원자재</h3>
+                <p>금속 재료, 플라스틱 원료, 화학 보조제 등 산업 원자재의跨境 조달 및 물류 배송.</p>
             </div>
             <div class="card">
-                <h3>定制采购</h3>
-                <p>根据客户需求，提供从寻源、打样、质检到物流的一站式定制采购服务。</p>
+                <h3>맞춤 조달</h3>
+                <p>공급업체 탐색, 샘플링, 품질 검사부터 물류까지 고객 요구에 맞춘 원스톱 맞춤 조달 서비스.</p>
             </div>
             <div class="card">
-                <h3>仓储与物流</h3>
-                <p>依托合作仓储网络，提供集货、分拣、报关、国际运输等配套服务。</p>
+                <h3>창고 및 물류</h3>
+                <p>협력 창고 네트워크를 통해 집하, 분류, 통관, 국제 운송 등 부대 서비스 제공.</p>
             </div>
         </div>
     </div>
 
-    <div class="footer">© 2025 TIGER International Trade Co Ltd · 泰伊戈尔国际贸易有限公司</div>
+    <div class="footer">© 2025 TIGER International Trade Co Ltd</div>
 
     <script type="importmap">
         {
@@ -61,6 +68,6 @@
             }
         }
     </script>
-    <script type="module" src="assets/js/bg.js"></script>
+    <script type="module" src="../assets/js/bg.js"></script>
 </body>
 </html>

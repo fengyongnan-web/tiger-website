@@ -1,57 +1,64 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>产品中心 - TIGER</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Products - TIGER</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <div id="canvas-container"></div>
 
     <nav class="navbar">
         <div class="brand">TIGER</div>
-        <ul class="nav-links">
-            <li><a href="index.html">首页</a></li>
-            <li><a href="products.html" class="active">产品中心</a></li>
-            <li><a href="solutions.html">解决方案</a></li>
-            <li><a href="news.html">最新动态</a></li>
-            <li><a href="about.html">关于我们</a></li>
-            <li><a href="contact.html">联系我们</a></li>
-        </ul>
+        <div style="display:flex;align-items:center;">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="../products.html">中文</a>
+                <a href="products.html" class="active">EN</a>
+                <a href="../ko/products.html">한국어</a>
+            </div>
+        </div>
     </nav>
 
     <div class="page-content">
-        <h2 class="section-title">产品中心</h2>
+        <h2 class="section-title">Products</h2>
         <div class="card-grid">
             <div class="card">
-                <h3>电子元器件</h3>
-                <p>各类被动元件、半导体、连接器等电子元器件的全球采购与供应，支持多品牌、多规格选型。</p>
+                <h3>Electronic Components</h3>
+                <p>Global sourcing and supply of passive components, semiconductors, connectors and more. Multi-brand, multi-spec selection supported.</p>
             </div>
             <div class="card">
-                <h3>工业设备</h3>
-                <p>自动化设备、机械配件、工控产品的进出口贸易，提供选型建议与售后支持。</p>
+                <h3>Industrial Equipment</h3>
+                <p>Import and export of automation equipment, mechanical parts and industrial control products, with selection advice and after-sales support.</p>
             </div>
             <div class="card">
-                <h3>消费电子</h3>
-                <p>智能穿戴、音频设备、手机配件等消费类电子产品的供应链整合与出口服务。</p>
+                <h3>Consumer Electronics</h3>
+                <p>Supply chain integration and export services for smart wearables, audio devices, mobile accessories and more.</p>
             </div>
             <div class="card">
-                <h3>原材料</h3>
-                <p>金属材料、塑胶原料、化工辅料等工业原材料的跨境采购与物流配送。</p>
+                <h3>Raw Materials</h3>
+                <p>Cross-border procurement and logistics for metal materials, plastic resins, chemical auxiliaries and other industrial raw materials.</p>
             </div>
             <div class="card">
-                <h3>定制采购</h3>
-                <p>根据客户需求，提供从寻源、打样、质检到物流的一站式定制采购服务。</p>
+                <h3>Custom Procurement</h3>
+                <p>One-stop custom sourcing from supplier search, sampling and inspection to logistics, tailored to your needs.</p>
             </div>
             <div class="card">
-                <h3>仓储与物流</h3>
-                <p>依托合作仓储网络，提供集货、分拣、报关、国际运输等配套服务。</p>
+                <h3>Warehousing & Logistics</h3>
+                <p>Consolidation, sorting, customs clearance and international shipping through our partner warehousing network.</p>
             </div>
         </div>
     </div>
 
-    <div class="footer">© 2025 TIGER International Trade Co Ltd · 泰伊戈尔国际贸易有限公司</div>
+    <div class="footer">© 2025 TIGER International Trade Co Ltd</div>
 
     <script type="importmap">
         {
@@ -61,6 +68,6 @@
             }
         }
     </script>
-    <script type="module" src="assets/js/bg.js"></script>
+    <script type="module" src="../assets/js/bg.js"></script>
 </body>
 </html>

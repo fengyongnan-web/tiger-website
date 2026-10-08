@@ -1,37 +1,44 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>联系我们 - TIGER</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact - TIGER</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <div id="canvas-container"></div>
 
     <nav class="navbar">
         <div class="brand">TIGER</div>
-        <ul class="nav-links">
-            <li><a href="index.html">首页</a></li>
-            <li><a href="products.html">产品中心</a></li>
-            <li><a href="solutions.html">解决方案</a></li>
-            <li><a href="news.html">最新动态</a></li>
-            <li><a href="about.html">关于我们</a></li>
-            <li><a href="contact.html" class="active">联系我们</a></li>
-        </ul>
+        <div style="display:flex;align-items:center;">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="../contact.html">中文</a>
+                <a href="contact.html" class="active">EN</a>
+                <a href="../ko/contact.html">한국어</a>
+            </div>
+        </div>
     </nav>
 
     <div class="page-content">
-        <h2 class="section-title">联系我们</h2>
+        <h2 class="section-title">Contact Us</h2>
         <div class="contact-grid">
             <div class="contact-info">
-                <h3>联系方式</h3>
+                <h3>Get in Touch</h3>
                 <div class="info-item">
-                    <div class="info-label">电话 / TEL</div>
+                    <div class="info-label">TEL</div>
                     <div class="info-value">+86 000 0000 0000</div>
                 </div>
                 <div class="info-item">
-                    <div class="info-label">邮箱 / EMAIL</div>
+                    <div class="info-label">EMAIL</div>
                     <div class="info-value">info@tiger-trade.com</div>
                 </div>
                 <div class="info-item">
@@ -39,25 +46,25 @@
                     <div class="info-value">+86 000 0000 0000</div>
                 </div>
                 <div class="info-item">
-                    <div class="info-label">地址 / ADDRESS</div>
-                    <div class="info-value">中国 · 广东省 · 深圳市</div>
+                    <div class="info-label">ADDRESS</div>
+                    <div class="info-value">Shenzhen, Guangdong, China</div>
                 </div>
             </div>
 
             <div class="contact-form">
-                <h3>发送询盘</h3>
+                <h3>Send Inquiry</h3>
                 <form action="https://formspree.io/f/your-form-id" method="POST">
-                    <input type="text" name="name" placeholder="您的姓名 / 公司名称" required>
-                    <input type="email" name="email" placeholder="您的邮箱" required>
-                    <input type="text" name="subject" placeholder="询盘主题">
-                    <textarea name="message" placeholder="请描述您的采购需求，如产品品类、规格、数量等" required></textarea>
-                    <button type="submit">提交询盘</button>
+                    <input type="text" name="name" placeholder="Your Name / Company" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" placeholder="Please describe your procurement needs, such as product category, specs, quantity, etc." required></textarea>
+                    <button type="submit">Submit Inquiry</button>
                 </form>
             </div>
         </div>
     </div>
 
-    <div class="footer">© 2025 TIGER International Trade Co Ltd · 泰伊戈尔国际贸易有限公司</div>
+    <div class="footer">© 2025 TIGER International Trade Co Ltd</div>
 
     <script type="importmap">
         {
@@ -67,6 +74,6 @@
             }
         }
     </script>
-    <script type="module" src="assets/js/bg.js"></script>
+    <script type="module" src="../assets/js/bg.js"></script>
 </body>
 </html>

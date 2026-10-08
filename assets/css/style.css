@@ -535,3 +535,55 @@ body {
         padding: 25px;
     }
 }
+/* ===== 语言切换 ===== */
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 16px;
+    padding-left: 16px;
+    border-left: 1px solid rgba(60, 140, 255, 0.3);
+}
+
+.lang-switch a {
+    display: block;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #6688aa;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: color 0.3s ease, background 0.3s ease;
+    white-space: nowrap;
+}
+
+.lang-switch a:hover {
+    color: #ffffff;
+    background: rgba(0, 120, 255, 0.2);
+}
+
+.lang-switch a.active {
+    color: #00ccff;
+    background: rgba(0, 120, 255, 0.15);
+}
+
+@media (max-width: 900px) {
+    .lang-switch {
+        margin-left: 8px;
+        padding-left: 8px;
+        gap: 2px;
+    }
+    .lang-switch a {
+        padding: 3px 6px;
+        font-size: 0.72rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .lang-switch {
+        border-left: none;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 6px;
+    }
+}
